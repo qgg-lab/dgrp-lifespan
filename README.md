@@ -15,6 +15,12 @@
 
 * fastq.gz: Please download the data from SRA (https://www.ncbi.nlm.nih.gov/sra) with the accession number for the BioProject PRJNA577841.
 
+#### Data for the RNAi tests
+
+* 18C: Formatted_18Degree_RNAi.csv
+* 25C: Formatted_25Degree_RNAi.csv
+* 28C: Formatted_28Degree_RNAi.csv
+
 ### Codes
 
 #### Code for quantitative genetic analyses (ANOVAs)
@@ -37,7 +43,3 @@ The xQTL mapping consists of several steps:
 3) allele counts and filtering: filterVariants.pl and pileupCov.pl
 
 4) statistical tests: bsaReps.R, bsaRepsDiff.R, bsaRepsSexDiff.R for the tests within each environment, between environments but within the same sex, and between sexes within the same environment respectively.
-
-
-
-
