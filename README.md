@@ -2,7 +2,9 @@
 
 ### Data
 
-#### Individual level data (in this directory)
+#### Individual level data
+
+. life.all.csv: Individual level lifespan data for all individuals across environments
 
 ##### 
 
