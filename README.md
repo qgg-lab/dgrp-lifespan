@@ -4,7 +4,7 @@
 
 #### Individual level data
 
-. life.all.csv: Individual level lifespan data for all individuals across environments
+* life.all.csv: Individual level lifespan data for all individuals across environments
 
 ##### 
 
