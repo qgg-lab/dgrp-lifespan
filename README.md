@@ -43,3 +43,16 @@ The xQTL mapping consists of several steps:
 3) allele counts and filtering: filterVariants.pl and pileupCov.pl
 
 4) statistical tests: bsaReps.R, bsaRepsDiff.R, bsaRepsSexDiff.R for the tests within each environment, between environments but within the same sex, and between sexes within the same environment respectively.
+
+#### Code and data to reproduce the figures
+
+* Fig 1: Fig1.R DGRP18CLifespanRawData.csv DGRP25CLifespanRawData.csv DGRP28CLifespanRawData.csv
+* Fig 2: Fig2.R [fe]male.[18|25|28]c.lns.pheno
+* Fig 3: Fig3.R lifespan.eff.ave.txt
+* Fig 4: Fig4.R xqtl.eff.txt
+* Fig 5: Fig5.R Formatted_18Degree_RNAi.csv Formatted_25Degree_RNAi.csv Formatted_28Degree_RNAi.csv
+* S1_Fig: S1_Fig.R *We cannot provide all the P values becasue of size limits on GitHub. However, for these QQ plots, what matters are the distributions.*
+* S2_Fig: S2_Fig.R snp.geno.ped snp.geno.map
+* S3_Fig: S3_Fig.R data available at https://figshare.com/articles/all_snp_eff_txt_gz/11803848
+* S4_Fig: S4_Fig.R data available at https://figshare.com/articles/all_snp_lns_eff_txt_gz/11803845
+* S5_Fig: S5_Fig.R data available at https://figshare.com/articles/all_xqtl_eff_txt_gz/11803851
